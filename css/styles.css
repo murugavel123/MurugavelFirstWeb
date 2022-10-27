@@ -1,0 +1,109 @@
+
+
+
+.navbar{
+   margin: 0%;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(./images/DSC_0891.JPG);
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_position{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.nav_position li{
+    display: inline-block;
+}
+
+.nav_position li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 47px;
+    border: 1px solid transparent;
+    margin-left:10px;
+    transition: 0.5s ease-in-out;
+}
+
+.nav_position li a:hover{
+background-color: #05d7f7;
+color: #000;
+border-radius: 5px;
+border:3px solid transparent;
+font-size: 20px;
+      
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 19px;
+transition: 0.5s;
+}
+
+.logo img:hover{
+    width: 166px;
+}
+.body{
+    margin: 0%;
+}
+
+ul li.home a{
+    background-color: #05d7f7;
+    color: #000;
+    border-radius: 5px;
+    border:3px solid transparent;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);}
+.title h1{
+    color: #fff;
+    font-size: 100px;
+    font-family: 'inter',sans-serif;
+}
+
+.button{
+     position: absolute;
+     top: 72%;
+     left:45%;
+     transform: translate(-50%,-50%);
+
+}
+.button a.download{
+    border:1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'inter',sans-serif;
+    color: #fff;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.button a.download:hover{
+    background-color: #05d7f7;
+    font-family: 'inter',sans-serif;
+
+    color: #000;
+    border-radius: 5px;
+    border:3px solid transparent;
+    font-size: 20px;
+
+}
+    
